@@ -19,22 +19,22 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
               <div className="flex-shrink-0">
-                <span className="text-xl font-bold text-indigo-600">JRMT</span>
+                <span className="text-xl font-bold text-green-600">JRMT</span>
               </div>
               <nav className="flex space-x-6">
-                <Link href="/" className="text-gray-600 hover:text-indigo-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
+                <Link href="/" className="text-gray-600 hover:text-green-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-indigo-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
+                <Link href="/about" className="text-gray-600 hover:text-green-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
                   About
                 </Link>
-                <Link href="/contest" className="text-gray-600 hover:text-indigo-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
+                <Link href="/contest" className="text-gray-600 hover:text-green-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
                   Contest
                 </Link>
-                <Link href="/schedule" className="text-gray-600 hover:text-indigo-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
+                <Link href="/schedule" className="text-gray-600 hover:text-green-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
                   Schedule
                 </Link>
-                <Link href="/registration" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-1 rounded-md text-sm font-medium transition-colors duration-200">
+                <Link href="/registration" className="bg-green-600 hover:bg-green-700 text-white px-4 py-1 rounded-md text-sm font-medium transition-colors duration-200">
                   Registration
                 </Link>
               </nav>
