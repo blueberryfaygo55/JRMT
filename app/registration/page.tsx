@@ -1,13 +1,24 @@
-// File: app/registration/page.tsx
 export default function RegistrationPage() {
-    return (
-      <main className="p-6 max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Registration</h1>
-        <p>Please fill out the Google Form to register by Wednesday, May 14th:</p>
-        <a href="https://forms.gle/your-form-link" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">
-          Registration Form
+  return (
+    <div className="bg-gradient-to-b from-white to-gray-50 py-16 px-6">
+      <div className="max-w-3xl mx-auto text-center">
+        <h1 className="text-4xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
+          Registration
+        </h1>
+
+        <p className="text-gray-700 text-md mb-6">
+          Please complete the registration form by <span className="font-medium text-indigo-600">Wednesday, May 14th</span> to reserve your spot for JRMT 2025.
+        </p>
+
+        <a
+          href="https://forms.gle/your-form-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-indigo-600 text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-indigo-700 transition-colors duration-200"
+        >
+          Fill Out Registration Form
         </a>
-      </main>
-    );
-  }
-  
+      </div>
+    </div>
+  );
+}
