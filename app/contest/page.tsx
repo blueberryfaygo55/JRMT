@@ -41,7 +41,7 @@ export default function ContestPage() {
             <div className="border-l-4 border-green-400 pl-4">
               <h3 className="text-lg font-semibold text-green-600 mb-1">Speed Round</h3>
               <p className="text-gray-600 text-sm">
-                25-minute, 15-problem individual test. All answers are single values. Problems are worth 10 points each (150 total) and arranged in increasing difficulty.
+                25-minute, 15-problem individual test. All answers are single values. Problems are worth 10 points each (150 total) and arranged in roughly increasing difficulty.
               </p>
             </div>
 
@@ -49,7 +49,7 @@ export default function ContestPage() {
             <div className="border-l-4 border-green-500 pl-4">
               <h3 className="text-lg font-semibold text-green-600 mb-1">Accuracy Round</h3>
               <p className="text-gray-600 text-sm">
-                50-minute, 10-problem individual test. All answers are single values. Problems are worth 15 points each (150 total) and arranged in increasing difficulty.
+                50-minute, 10-problem individual test. All answers are single values. Problems are worth 15 points each (150 total) and arranged in roughly increasing difficulty.
               </p>
             </div>
 
@@ -57,7 +57,7 @@ export default function ContestPage() {
             <div className="border-l-4 border-green-600 pl-4">
               <h3 className="text-lg font-semibold text-green-600 mb-1">Team Round</h3>
               <p className="text-gray-600 text-sm">
-                40-minute, 10-problem collaborative event. Problems are worth 40 points each (400 total) and arranged in increasing difficulty.
+                40-minute, 10-problem team event. Problems are worth 40 points each (400 total) and arranged in roughly increasing difficulty.
               </p>
             </div>
 
@@ -65,7 +65,8 @@ export default function ContestPage() {
             <div className="border-l-4 border-green-700 pl-4">
               <h3 className="text-lg font-semibold text-green-600 mb-1">Guts Round</h3>
               <p className="text-gray-600 text-sm">
-                60-minute team event with sets of 3 problems. Teams can complete up to 9 sets (27 problems total) with a live scoreboard. Problems are weighted by difficulty for a total of 400 points.
+                Exciting 60-minute team event with sets of 3 problems where all teams gather in a common space and solve problems at the same time. Each team is initially assigned a set of 3 problems, which they can turn in to volunteer organizers up front when completed and receive the next set of 3 problems, for up to 9 sets (so 27 problems) in total. The last set of problems consists of 3 estimation problems. All answers are single values. Problems are weighted differently based on their difficulty for a total of 400 points. There will be a live scoreboard displaying each team’s progress and placement; thus, teams will receive almost immediate feedback for sets they submitted. 
+
               </p>
             </div>
           </div>
@@ -78,19 +79,24 @@ export default function ContestPage() {
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div className="bg-gray-50 p-4 rounded-lg">
               <h3 className="text-lg font-semibold text-green-600 mb-2">Individual Score</h3>
-              <p className="text-gray-600 text-sm">Speed (150) + Accuracy (150) = <span className="font-bold">300 points max</span></p>
+              <p className="text-gray-600 text-sm">The Speed Round consists of 15 problems worth 10 points each, for a total of 150 points. The Accuracy Round consists of 10 problems worth 15 points each, for a total of 150 points. A contestant’s individual score is the sum of their scores on the Speed and Accuracy Rounds, so each contestant can score up to 300 points individually.</p> 
+
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold text-green-600 mb-2">Team Score</h3>
-              <p className="text-gray-600 text-sm">Individual Scores (1200) + Team Round (400) + Guts Round (400) = <span className="font-bold">2000 points max</span></p>
+              <h3 className="text-lg font-semibold text-green-600 mb-2">Team Sweepstakes Score</h3>
+              <p className="text-gray-600 text-sm">The Team Round consists of 10 problems worth 40 points each, for a total of 400 points. The Guts Round consists of 27 problems each weighted based on its difficulty, for a total of 400 points. A team’s final sweepstakes score is calculated as the sum of its individual scores (out of 1200), Team Round score (out of 400), and Guts Round score (out of 400), for a maximum of 2000 points. 
+              </p>
             </div>
           </div>
 
           <div className="mb-4">
             <h3 className="text-md font-semibold text-gray-700 mb-2">Tiebreakers</h3>
             <p className="text-gray-600 text-sm">
-              Within rounds: Last problem solved, then second-last, etc. For team totals: Team Round score, then Guts Round, then highest-scoring members.
+            Within a round (Speed/Accuracy/Team/Guts), ties are broken by the last problem solved by the individuals/teams. If a tie persists, we consider the second last problem solved, and so on. If the individuals/teams in consideration solve the same set of problems, a tie will be declared.
+
+If two teams have the same total score, ties will be broken by their score on the Team Round. If a tie persists, ties are broken by their score on the Guts Round. If a tie persists, ties are broken by their highest-scoring members. 
+
             </p>
           </div>
 

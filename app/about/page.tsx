@@ -19,7 +19,7 @@ export default function AboutPage() {
             <div className="border-b border-gray-100 pb-4">
               <h3 className="text-lg font-semibold text-green-600 mb-2">Can I attend?</h3>
               <p className="text-gray-600 text-sm">
-                JRMT is for middle schoolers of all experience levels. High schoolers can volunteer as organizers!
+                JRMT is for middle schoolers of all experience levels. You may participate as long as you are not in high school yet (even if you are in elementary school!). High schoolers can volunteer as organizers!
               </p>
             </div>
 
