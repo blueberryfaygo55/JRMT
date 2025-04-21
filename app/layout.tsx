@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Image from 'next/image'
 
 // Initialize the Inter font
 const inter = Inter({ subsets: ['latin'] });
@@ -19,7 +20,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
               <div className="flex-shrink-0">
-                <span className="text-xl font-bold text-green-600">JRMT</span>
+                <Link href="/">
+  <Image
+    src="/jrmtlogo.png"
+    alt="JRMT Logo"
+    width={40}
+    height={40}
+    priority
+  />
+</Link>
               </div>
               <nav className="flex space-x-6">
                 <Link href="/" className="text-gray-600 hover:text-green-600 px-2 py-1 text-sm font-medium transition-colors duration-200">
