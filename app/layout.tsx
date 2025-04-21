@@ -24,8 +24,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   <Image
     src="/jrmtlogo.png"
     alt="JRMT Logo"
-    width={40}
-    height={40}
+    width={60}
+    height={60}
     priority
   />
 </Link>
