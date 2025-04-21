@@ -11,7 +11,7 @@ export default function RegistrationPage() {
         </p>
 
         <a
-          href="https://forms.gle/your-form-link"
+          href="https://forms.gle/exQYejevKHWQ9SLk6"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-green-600 text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-green-700 transition-colors duration-200"
