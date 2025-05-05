@@ -6,6 +6,15 @@ export default function HomePage() {
   return (
     <div className="bg-gradient-to-b from-white to-gray-50 py-16 px-6">
       <div className="max-w-5xl mx-auto text-center">
+
+        {/* Postponement Banner */}
+        <div className="bg-red-100 border border-red-400 text-red-800 px-4 py-3 rounded-lg mb-8 shadow-md">
+          <strong className="font-bold">Important Update:</strong>
+          <span className="block sm:inline ml-2">
+            The 2025 Jackson-Reed Math Tournament has been <u>postponed to Fall 2025</u>. Stay tuned for the new date!
+          </span>
+        </div>
+
         {/* Animated Heading */}
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
