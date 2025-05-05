@@ -14,7 +14,7 @@ export default function ContestPage() {
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
           <div className="flex items-center justify-center space-x-8 mb-6">
             <div className="text-center">
-              <div className="text-green-600 text-xl font-bold mb-1">May 17, 2025</div>
+              <div className="text-green-600 text-xl font-bold mb-1">Fall 2025</div>
               <div className="text-gray-500 text-sm">Saturday</div>
             </div>
             <div className="text-center">
