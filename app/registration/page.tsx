@@ -7,17 +7,8 @@ export default function RegistrationPage() {
         </h1>
 
         <p className="text-gray-700 text-md mb-6">
-          Please complete the registration form by <span className="font-medium text-green-600">Wednesday, May 14th</span> to reserve your spot for JRMT 2025.
+          JRMT is scheduled to happen in Fall 2025. Stay tuned for the registration form!
         </p>
-
-        <a
-          href="https://forms.gle/exQYejevKHWQ9SLk6"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-green-600 text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-green-700 transition-colors duration-200"
-        >
-          Fill Out Registration Form
-        </a>
       </div>
     </div>
   );
