@@ -8,7 +8,7 @@ export default function Schedule() {
             Event Schedule
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The Jackson-Reed Math Tournament will be hosted in person on <strong>Saturday, May 17th</strong> at Jackson-Reed High School, located at 3950 Chesapeake Street, NW, Washington, DC 20016. Volunteers will be stationed at the main gate to guide you to check-in.
+            The Jackson-Reed Math Tournament will be hosted in person sometime in <Fall 2025> at Jackson-Reed High School, located at 3950 Chesapeake Street, NW, Washington, DC 20016. Volunteers will be stationed at the main gate to guide you to check-in.
           </p>
         </div>
 
