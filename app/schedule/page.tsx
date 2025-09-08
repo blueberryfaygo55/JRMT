@@ -8,7 +8,7 @@ export default function Schedule() {
             Event Schedule
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The Jackson-Reed Math Tournament will be hosted in person sometime in Fall 2025 at Jackson-Reed High School, located at 3950 Chesapeake Street, NW, Washington, DC 20016. Volunteers will be stationed at the main gate to guide you to check-in.
+            The Jackson-Reed Math Tournament will be hosted in person from 2:15pm-7pm on October 25th at Jackson-Reed High School, located at 3950 Chesapeake Street, NW, Washington, DC 20016. Volunteers will be stationed at the main gate to guide you to check-in.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function Schedule() {
         {/* Lunch Notice */}
         <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-10 rounded-lg shadow-sm text-center">
           <p className="text-green-700 font-medium">
-            Thanks to our generous sponsors, <span className="font-semibold">FREE LUNCH</span> (Cheese and Pepperoni Pizza) will be provided to all contestants.
+            Thanks to our generous sponsors, <span className="font-semibold">FREE DINNER</span> (Cheese and Pepperoni Pizza) will be provided to all contestants. The schedule below is subject to change depending on contest-day developments.
           </p>
         </div>
 
@@ -43,15 +43,15 @@ export default function Schedule() {
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {[
-                ['9:30 AM – 10:00 AM', 'Check In'],
-                ['10:00 AM – 10:25 AM', 'Speed Round'],
-                ['10:25 AM – 10:40 AM', 'Break 1'],
-                ['10:40 AM – 11:30 AM', 'Accuracy Round'],
-                ['11:30 AM – 1:00 PM', 'Lunch Break'],
-                ['1:00 PM – 1:40 PM', 'Team Round'],
-                ['1:40 PM – 2:00 PM', 'Break 2'],
-                ['2:00 PM – 2:30 PM', 'Guts Round'],
-                ['2:30 PM – 3:15 PM', 'Award Ceremony']
+                ['2:15 PM – 2:45 PM', 'Check In (First Floor)'],
+                ['2:45 PM – 3:15 PM', 'Speed Round (Fourth Floor)'],
+                ['3:15 PM – 3:20 PM', 'Break 1'],
+                ['3:20 PM – 4:10 PM', 'Accuracy Round (Fourth Floor)'],
+                ['4:10 PM - 4:15 PM', 'Break 2'],
+                ['4:15 PM – 4:55 PM', 'Team Round'],
+                ['4:55 PM – 5:45 PM', 'Pizza Dinner (First Floor)'],
+                ['5:45 PM – 6:45 PM', 'Guts Round (First Floor)'],
+                ['6:45 PM – 7:00 PM', 'Award Ceremony (First Floor)']
               ].map(([time, event], i) => (
                 <tr key={i} className={i % 2 === 0 ? '' : 'bg-gray-50'}>
                   <td className="px-6 py-4 whitespace-nowrap text-gray-600">{time}</td>
