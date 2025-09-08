@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="bg-red-100 border border-red-400 text-red-800 px-4 py-3 rounded-lg mb-8 shadow-md">
           <strong className="font-bold">Important Update:</strong>
           <span className="block sm:inline ml-2">
-            The 2025 Jackson-Reed Math Tournament has been <u>postponed to Fall 2025</u>. Stay tuned for the new date!
+            The 2025 Jackson-Reed Math Tournament will take place on Saturday, October 25th, 2025 at Jackson-Reed High School. Register today!
           </span>
         </div>
 
