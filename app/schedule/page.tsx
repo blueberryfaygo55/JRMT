@@ -48,7 +48,7 @@ export default function Schedule() {
                 ['3:15 PM – 3:20 PM', 'Break 1'],
                 ['3:20 PM – 4:10 PM', 'Accuracy Round (Fourth Floor)'],
                 ['4:10 PM - 4:15 PM', 'Break 2'],
-                ['4:15 PM – 4:55 PM', 'Team Round'],
+                ['4:15 PM – 4:55 PM', 'Team Round (Fourth Floor)'],
                 ['4:55 PM – 5:45 PM', 'Pizza Dinner (First Floor)'],
                 ['5:45 PM – 6:45 PM', 'Guts Round (First Floor)'],
                 ['6:45 PM – 7:00 PM', 'Award Ceremony (First Floor)']
