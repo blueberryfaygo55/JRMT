@@ -7,10 +7,9 @@ export default function RegistrationPage() {
         </h1>
 
         <p className="text-gray-700 text-md mb-6">
-          JRMT is scheduled to happen on Saturday, October 25th, 2025 at Jackson-Reed High School in Washington DC. 
+          JRMT is scheduled to happen on Saturday, October 25th, 2025 at Jackson-Reed High School in Washington DC.
         </p>
 
-        {/* Button for opening form in new tab */}
         <a
           href="https://docs.google.com/forms/d/1fR02UP6CDyrfKxdANEt5UEwiTpnbMhLcO-xU1StHk2Y/viewform"
           target="_blank"
@@ -20,14 +19,12 @@ export default function RegistrationPage() {
           Open Registration Form
         </a>
 
-        {/* Embedded form */}
         <iframe
           src="https://docs.google.com/forms/d/1fR02UP6CDyrfKxdANEt5UEwiTpnbMhLcO-xU1StHk2Y/viewform?embedded=true"
-          width="100%"
-          height="800"
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
+          height={800}             // number, not string
+          style={{ border: 0 }}    // replaces frameBorder/margins
+          className="w-full rounded-xl shadow"
+          loading="lazy"
         >
           Loading…
         </iframe>
