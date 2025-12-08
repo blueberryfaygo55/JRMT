@@ -7,7 +7,7 @@ export default function RegistrationPage() {
         </h1>
 
         <p className="text-gray-700 text-md mb-6">
-          JRMT is scheduled to happen on Saturday, October 25th, 2025 at Jackson-Reed High School in Washington DC.
+          JRMT is scheduled to happen on Saturday, January 24th, 2025 at Jackson-Reed High School in Washington DC.
         </p>
 
         <a
