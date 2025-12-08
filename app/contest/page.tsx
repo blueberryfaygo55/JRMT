@@ -23,7 +23,7 @@ export default function ContestPage() {
             </div>
             <div className="text-center">
               <div className="text-green-600 text-xl font-bold mb-1">Free Pizza</div>
-              <div className="text-gray-500 text-sm">Provided during Dinner</div>
+              <div className="text-gray-500 text-sm">Provided during lunch</div>
             </div>
           </div>
 
