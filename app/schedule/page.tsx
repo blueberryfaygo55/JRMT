@@ -55,7 +55,7 @@ export default function Schedule() {
                 ['1:30 PM – 2:30 PM', 'Guts Round', 'Cafeteria'],
                 ['2:30 PM – 3:00 PM', 'Award Ceremony', 'Atrium']
               ].map(([time, event], i) => (
-                <tr key={i} className={i % 2 === 0 ? '' : 'bg-gray-50'}>
+                <tr key={i} className={i % 3 === 0 ? '' : 'bg-gray-50'}>
                   <td className="px-6 py-4 whitespace-nowrap text-gray-600">{time}</td>
                   <td className="px-6 py-4 font-medium text-gray-900">{event}</td>
                 </tr>
