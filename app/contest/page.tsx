@@ -6,7 +6,7 @@ export default function ContestPage() {
         <div className="text-center mb-6">
           <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-emerald-600">Contest Format</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The Jackson-Reed Math Tournament (JRMT) is a free middle school math competition designed for students grades 6-8 hosted in-person at Jackson-Reed High School. We are pleased to announce that JRMT will be hosted for the first time in 2025!
+            The Jackson-Reed Math Tournament (JRMT) is a free middle school math competition designed for students grades 6-8 hosted in-person at Jackson-Reed High School. We are pleased to announce that JRMT will be hosted for the first time in 2026!
           </p>
         </div>
 
