@@ -39,18 +39,21 @@ export default function Schedule() {
                 <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">
                   Event
                 </th>
+                <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                  Locatoin
+                </th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {[
-                ['9:30 AM – 10:00 AM', 'Check In'],
-                ['10:00 AM – 10:25 AM', 'Speed Round'],
-                ['10:25 AM – 11:15 AM', 'Accuracy Round'],
+                ['9:30 AM – 10:00 AM', 'Check In', 'Atrium'],
+                ['10:00 AM – 10:25 AM', 'Speed Round', 'Cafeteria'],
+                ['10:25 AM – 11:15 AM', 'Accuracy Round', 'Cafeteria'],
                 ['11:15 AM - 11:30 AM', 'Break'],
-                ['11:30 AM – 12:10 PM', 'Team Round'],
-                ['12:10 PM – 1:30 PM', 'Lunch + Tiebreaks'],
-                ['1:30 PM – 2:30 PM', 'Guts Round'],
-                ['2:30 PM – 3:00 PM', 'Award Ceremony (First Floor)']
+                ['11:30 AM – 12:10 PM', 'Team Round', 'Cafeteria'],
+                ['12:10 PM – 1:30 PM', 'Lunch + Tiebreaks', 'Cafeteria'],
+                ['1:30 PM – 2:30 PM', 'Guts Round', 'Cafeteria'],
+                ['2:30 PM – 3:00 PM', 'Award Ceremony', 'Atrium']
               ].map(([time, event], i) => (
                 <tr key={i} className={i % 2 === 0 ? '' : 'bg-gray-50'}>
                   <td className="px-6 py-4 whitespace-nowrap text-gray-600">{time}</td>
