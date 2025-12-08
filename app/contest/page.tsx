@@ -101,7 +101,7 @@ If two teams have the same total score, ties will be broken by their score on th
           </div>
 
           <div className="bg-green-50 p-4 rounded-lg text-center">
-            <p className="text-green-700 font-medium">Medals will be awarded to the top 5 contestants in each individual round, and the top 5 teams overall.</p>
+            <p className="text-green-700 font-medium">Medals will be awarded to the top 5 contestants in each individual round, and the winning team overall.</p>
           </div>
         </div>
 
