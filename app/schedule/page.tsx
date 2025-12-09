@@ -24,7 +24,7 @@ export default function Schedule() {
         {/* Lunch Notice */}
         <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-10 rounded-lg shadow-sm text-center">
           <p className="text-green-700 font-medium">
-            Thanks to our generous sponsors, <span className="font-semibold">FREE LUNCH</span> (Cheese and Pepperoni Pizza) will be provided to all contestants. The schedule below is subject to change depending on contest-day developments.
+            All rounds will take place in the atrium and cafeteria area on the first floor. Thanks to our generous sponsors, <span className="font-semibold">FREE LUNCH</span> (Cheese and Pepperoni Pizza) will be provided to all contestants. The schedule below is subject to change depending on contest-day developments.
           </p>
         </div>
 
