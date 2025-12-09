@@ -39,9 +39,6 @@ export default function Schedule() {
                 <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">
                   Event
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider">
-                  Locatoin
-                </th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
