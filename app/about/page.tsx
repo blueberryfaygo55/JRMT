@@ -41,7 +41,7 @@ export default function AboutPage() {
 
             {/* FAQ Item 4 */}
             <div className="border-b border-gray-100 pb-4">
-              <h3 className="text-lg font-semibold text-green-600 mb-2">Is dinner provided?</h3>
+              <h3 className="text-lg font-semibold text-green-600 mb-2">Is lunch provided?</h3>
               <p className="text-gray-600 text-sm">
                 Yes! Free pizza for all contestants and chaperones.
               </p>
